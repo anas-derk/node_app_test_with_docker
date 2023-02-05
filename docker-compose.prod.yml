@@ -1,0 +1,6 @@
+services:
+  express-app:
+    build:
+      context: .
+      target: production
+    container_name: express-app-container

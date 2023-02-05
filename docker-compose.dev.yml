@@ -1,0 +1,5 @@
+services:
+  express-app:
+    build:
+      context: .
+      target: development
